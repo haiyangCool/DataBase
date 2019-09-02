@@ -3,10 +3,26 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		37309A19231CE6B9002F3A3F /* VVDataBaseDefines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37309A10231CE6B9002F3A3F /* VVDataBaseDefines.swift */; };
+		37309A1A231CE6B9002F3A3F /* VVPersistenceTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37309A11231CE6B9002F3A3F /* VVPersistenceTable.swift */; };
+		37309A1B231CE6B9002F3A3F /* VVDataBaseVersionTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37309A12231CE6B9002F3A3F /* VVDataBaseVersionTable.swift */; };
+		37309A1C231CE6B9002F3A3F /* VVDataBaseMigrator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37309A13231CE6B9002F3A3F /* VVDataBaseMigrator.swift */; };
+		37309A1D231CE6B9002F3A3F /* VVDataBaseVersionRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37309A14231CE6B9002F3A3F /* VVDataBaseVersionRecord.swift */; };
+		37309A1E231CE6B9002F3A3F /* VVSQLCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37309A15231CE6B9002F3A3F /* VVSQLCommand.swift */; };
+		37309A1F231CE6B9002F3A3F /* VVTableDataRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37309A16231CE6B9002F3A3F /* VVTableDataRecord.swift */; };
+		37309A20231CE6B9002F3A3F /* VVDataBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37309A17231CE6B9002F3A3F /* VVDataBase.swift */; };
+		37309A21231CE6B9002F3A3F /* VVDataBase+Migrate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37309A18231CE6B9002F3A3F /* VVDataBase+Migrate.swift */; };
+		37309A24231CE81D002F3A3F /* DemoDataCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37309A23231CE81D002F3A3F /* DemoDataCenter.swift */; };
+		37309A28231CE8B9002F3A3F /* UserRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37309A25231CE8B9002F3A3F /* UserRecord.swift */; };
+		37309A29231CE8B9002F3A3F /* NameRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37309A26231CE8B9002F3A3F /* NameRecord.swift */; };
+		37309A2A231CE8B9002F3A3F /* UserInfoTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37309A27231CE8B9002F3A3F /* UserInfoTable.swift */; };
+		37309A2C231CE952002F3A3F /* VVDataBaseUpgradeInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 37309A2B231CE951002F3A3F /* VVDataBaseUpgradeInfo.plist */; };
+		37309A2E231CEF9A002F3A3F /* DataBaseMigrator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37309A2D231CEF9A002F3A3F /* DataBaseMigrator.swift */; };
+		4E315DFAAF8579C5C85BFD90 /* Pods_DataBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9160254593A6C05F5330017 /* Pods_DataBase.framework */; };
 		5C9D147E2105D48C007A46DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9D147D2105D48C007A46DC /* AppDelegate.swift */; };
 		5C9D14802105D48C007A46DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9D147F2105D48C007A46DC /* ViewController.swift */; };
 		5C9D14832105D48C007A46DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C9D14812105D48C007A46DC /* Main.storyboard */; };
@@ -34,6 +50,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		37309A10231CE6B9002F3A3F /* VVDataBaseDefines.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VVDataBaseDefines.swift; sourceTree = "<group>"; };
+		37309A11231CE6B9002F3A3F /* VVPersistenceTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VVPersistenceTable.swift; sourceTree = "<group>"; };
+		37309A12231CE6B9002F3A3F /* VVDataBaseVersionTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VVDataBaseVersionTable.swift; sourceTree = "<group>"; };
+		37309A13231CE6B9002F3A3F /* VVDataBaseMigrator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VVDataBaseMigrator.swift; sourceTree = "<group>"; };
+		37309A14231CE6B9002F3A3F /* VVDataBaseVersionRecord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VVDataBaseVersionRecord.swift; sourceTree = "<group>"; };
+		37309A15231CE6B9002F3A3F /* VVSQLCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VVSQLCommand.swift; sourceTree = "<group>"; };
+		37309A16231CE6B9002F3A3F /* VVTableDataRecord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VVTableDataRecord.swift; sourceTree = "<group>"; };
+		37309A17231CE6B9002F3A3F /* VVDataBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VVDataBase.swift; sourceTree = "<group>"; };
+		37309A18231CE6B9002F3A3F /* VVDataBase+Migrate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "VVDataBase+Migrate.swift"; sourceTree = "<group>"; };
+		37309A23231CE81D002F3A3F /* DemoDataCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoDataCenter.swift; sourceTree = "<group>"; };
+		37309A25231CE8B9002F3A3F /* UserRecord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserRecord.swift; sourceTree = "<group>"; };
+		37309A26231CE8B9002F3A3F /* NameRecord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NameRecord.swift; sourceTree = "<group>"; };
+		37309A27231CE8B9002F3A3F /* UserInfoTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfoTable.swift; sourceTree = "<group>"; };
+		37309A2B231CE951002F3A3F /* VVDataBaseUpgradeInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = VVDataBaseUpgradeInfo.plist; sourceTree = "<group>"; };
+		37309A2D231CEF9A002F3A3F /* DataBaseMigrator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataBaseMigrator.swift; sourceTree = "<group>"; };
 		5C9D147A2105D48C007A46DC /* DataBase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DataBase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C9D147D2105D48C007A46DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5C9D147F2105D48C007A46DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +78,9 @@
 		5C9D14992105D48E007A46DC /* DataBaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataBaseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C9D149D2105D48E007A46DC /* DataBaseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBaseUITests.swift; sourceTree = "<group>"; };
 		5C9D149F2105D48E007A46DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C47EB2339B2774486F348E7 /* Pods-DataBase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DataBase.release.xcconfig"; path = "Target Support Files/Pods-DataBase/Pods-DataBase.release.xcconfig"; sourceTree = "<group>"; };
+		CA89C786D35A1B4DE530938B /* Pods-DataBase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DataBase.debug.xcconfig"; path = "Target Support Files/Pods-DataBase/Pods-DataBase.debug.xcconfig"; sourceTree = "<group>"; };
+		F9160254593A6C05F5330017 /* Pods_DataBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DataBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E315DFAAF8579C5C85BFD90 /* Pods_DataBase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +109,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0DBB1297A686767F7FB4A9EE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CA89C786D35A1B4DE530938B /* Pods-DataBase.debug.xcconfig */,
+				8C47EB2339B2774486F348E7 /* Pods-DataBase.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		37309A0F231CE6B9002F3A3F /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+				37309A10231CE6B9002F3A3F /* VVDataBaseDefines.swift */,
+				37309A11231CE6B9002F3A3F /* VVPersistenceTable.swift */,
+				37309A12231CE6B9002F3A3F /* VVDataBaseVersionTable.swift */,
+				37309A13231CE6B9002F3A3F /* VVDataBaseMigrator.swift */,
+				37309A14231CE6B9002F3A3F /* VVDataBaseVersionRecord.swift */,
+				37309A15231CE6B9002F3A3F /* VVSQLCommand.swift */,
+				37309A16231CE6B9002F3A3F /* VVTableDataRecord.swift */,
+				37309A17231CE6B9002F3A3F /* VVDataBase.swift */,
+				37309A18231CE6B9002F3A3F /* VVDataBase+Migrate.swift */,
+			);
+			path = DataBase;
+			sourceTree = "<group>";
+		};
+		37309A22231CE7ED002F3A3F /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				37309A23231CE81D002F3A3F /* DemoDataCenter.swift */,
+				37309A26231CE8B9002F3A3F /* NameRecord.swift */,
+				37309A27231CE8B9002F3A3F /* UserInfoTable.swift */,
+				37309A25231CE8B9002F3A3F /* UserRecord.swift */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		4FC22E1789E4555F63BBE947 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F9160254593A6C05F5330017 /* Pods_DataBase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5C9D14712105D48C007A46DC = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +160,8 @@
 				5C9D14912105D48E007A46DC /* DataBaseTests */,
 				5C9D149C2105D48E007A46DC /* DataBaseUITests */,
 				5C9D147B2105D48C007A46DC /* Products */,
+				0DBB1297A686767F7FB4A9EE /* Pods */,
+				4FC22E1789E4555F63BBE947 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +178,12 @@
 		5C9D147C2105D48C007A46DC /* DataBase */ = {
 			isa = PBXGroup;
 			children = (
+				37309A22231CE7ED002F3A3F /* Demo */,
+				37309A0F231CE6B9002F3A3F /* DataBase */,
 				5C9D147D2105D48C007A46DC /* AppDelegate.swift */,
+				37309A2B231CE951002F3A3F /* VVDataBaseUpgradeInfo.plist */,
 				5C9D147F2105D48C007A46DC /* ViewController.swift */,
+				37309A2D231CEF9A002F3A3F /* DataBaseMigrator.swift */,
 				5C9D14812105D48C007A46DC /* Main.storyboard */,
 				5C9D14842105D48E007A46DC /* Assets.xcassets */,
 				5C9D14862105D48E007A46DC /* LaunchScreen.storyboard */,
@@ -132,9 +217,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5C9D14A22105D48E007A46DC /* Build configuration list for PBXNativeTarget "DataBase" */;
 			buildPhases = (
+				D47305DFA10B4C35C11F19EE /* [CP] Check Pods Manifest.lock */,
 				5C9D14762105D48C007A46DC /* Sources */,
 				5C9D14772105D48C007A46DC /* Frameworks */,
 				5C9D14782105D48C007A46DC /* Resources */,
+				37C511564BF983B0C2F85DD4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,6 +318,7 @@
 			files = (
 				5C9D14882105D48E007A46DC /* LaunchScreen.storyboard in Resources */,
 				5C9D14852105D48E007A46DC /* Assets.xcassets in Resources */,
+				37309A2C231CE952002F3A3F /* VVDataBaseUpgradeInfo.plist in Resources */,
 				5C9D14832105D48C007A46DC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,13 +339,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		37C511564BF983B0C2F85DD4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DataBase/Pods-DataBase-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DataBase/Pods-DataBase-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DataBase/Pods-DataBase-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D47305DFA10B4C35C11F19EE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DataBase-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5C9D14762105D48C007A46DC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37309A1E231CE6B9002F3A3F /* VVSQLCommand.swift in Sources */,
+				37309A1B231CE6B9002F3A3F /* VVDataBaseVersionTable.swift in Sources */,
+				37309A1A231CE6B9002F3A3F /* VVPersistenceTable.swift in Sources */,
+				37309A24231CE81D002F3A3F /* DemoDataCenter.swift in Sources */,
+				37309A19231CE6B9002F3A3F /* VVDataBaseDefines.swift in Sources */,
+				37309A1C231CE6B9002F3A3F /* VVDataBaseMigrator.swift in Sources */,
+				37309A2A231CE8B9002F3A3F /* UserInfoTable.swift in Sources */,
 				5C9D14802105D48C007A46DC /* ViewController.swift in Sources */,
+				37309A20231CE6B9002F3A3F /* VVDataBase.swift in Sources */,
 				5C9D147E2105D48C007A46DC /* AppDelegate.swift in Sources */,
+				37309A29231CE8B9002F3A3F /* NameRecord.swift in Sources */,
+				37309A2E231CEF9A002F3A3F /* DataBaseMigrator.swift in Sources */,
+				37309A1F231CE6B9002F3A3F /* VVTableDataRecord.swift in Sources */,
+				37309A1D231CE6B9002F3A3F /* VVDataBaseVersionRecord.swift in Sources */,
+				37309A21231CE6B9002F3A3F /* VVDataBase+Migrate.swift in Sources */,
+				37309A28231CE8B9002F3A3F /* UserRecord.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +572,7 @@
 		};
 		5C9D14A32105D48E007A46DC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA89C786D35A1B4DE530938B /* Pods-DataBase.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -446,6 +591,7 @@
 		};
 		5C9D14A42105D48E007A46DC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C47EB2339B2774486F348E7 /* Pods-DataBase.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
